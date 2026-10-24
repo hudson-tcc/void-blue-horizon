@@ -1,9 +1,9 @@
 /*
-╔══════════════════════════════════════════════╗
-║             VOID: BLUE HORIZON                ║
-║       Dark Gaming Theme • Hudson Edition      ║
-╚══════════════════════════════════════════════╝
-*/
+ * ╔══════════════════════════════════════════════╗
+ * ║             VOID: BLUE HORIZON                ║
+ * ║       Dark Gaming Theme • Hudson Edition      ║
+ * ╚══════════════════════════════════════════════╝
+ */
 
 /* ========== PALETA ========== */
 
@@ -31,8 +31,8 @@
 html,
 body,
 #root {
-    background-color: var(--bg);
-    color: var(--text);
+background-color: var(--bg);
+color: var(--text);
 }
 
 /* ========== CABEÇALHO ========== */
@@ -56,21 +56,21 @@ body,
 html,
 body,
 #root {
-    min-height: 100%;
-    background-color: #080b11;
-    color: var(--text);
+min-height: 100%;
+background-color: #080b11;
+color: var(--text);
 }
 
 .container__content {
     background-color: #080b11 !important;
     background-image:
-        linear-gradient(
-            180deg,
-            rgba(5, 8, 14, 0.18) 0%,
-            rgba(5, 8, 14, 0.38) 45%,
-            rgba(5, 8, 14, 0.78) 100%
-        ),
-       url("https://raw.githubusercontent.com/hudson-tcc/void-blue-horizon/main/assets/hydra-bg-suave.jpg")!important;
+    linear-gradient(
+        180deg,
+        rgba(5, 8, 14, 0.18) 0%,
+                    rgba(5, 8, 14, 0.38) 45%,
+                    rgba(5, 8, 14, 0.78) 100%
+    ),
+    url("https://raw.githubusercontent.com/hudson-tcc/void-blue-horizon/main/assets/hydra-bg-suave.jpg")!important;
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
@@ -103,9 +103,9 @@ body,
     border-radius: 9px;
 
     transition:
-        background-color 180ms ease,
-        border-color 180ms ease,
-        box-shadow 180ms ease;
+    background-color 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease;
 }
 
 .button:hover {
@@ -373,3 +373,27 @@ nav [tabindex]:hover,
 aside [tabindex]:hover {
     transform: scale(1.025) !important;
 }
+
+/* VOID — FUNDO COMPARTILHADO BLUE HORIZON */
+main {
+    background-color: #080b11 !important;
+    background-image:
+    linear-gradient(
+        180deg,
+        rgba(5, 8, 14, 0.18) 0%,
+                    rgba(5, 8, 14, 0.38) 45%,
+                    rgba(5, 8, 14, 0.78) 100%
+    ),
+    url("https://raw.githubusercontent.com/hudson-tcc/void-blue-horizon/main/assets/hydra-bg-suave.jpg") !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+
+.sidebar {
+    background: rgba(8, 13, 22, 0.25) !important;
+    background-image: none !important;
+}
+
+
+
