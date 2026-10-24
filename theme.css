@@ -70,7 +70,7 @@ body,
             rgba(5, 8, 14, 0.38) 45%,
             rgba(5, 8, 14, 0.78) 100%
         ),
-       url("http://127.0.0.1:8765/hydra-bg-suave.jpg")!important;
+       url("https://raw.githubusercontent.com/hudson-tcc/void-blue-horizon/main/assets/hydra-bg-suave.jpg")!important;
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
@@ -230,11 +230,8 @@ a:hover {
 
 .button:hover {
     background-color: rgba(23, 43, 64, 0.9) !important;
-}/* FUNDO COMPARTILHADO DO HYDRA */
-main {
-    background: url("http://127.0.0.1:8765/hydra-bg-escura.jpg")
-        center center / cover fixed no-repeat !important;
 }
+
 
 /* Deixa a estrutura transparente */
 main,
