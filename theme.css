@@ -394,6 +394,14 @@ main {
     background: rgba(8, 13, 22, 0.25) !important;
     background-image: none !important;
 }
+/* VOID — FUNDO DA TELA DE CONQUISTAS */
+main [class*="achievement"],
+main [class*="Achievement"],
+main [class*="trophy"],
+main [class*="Trophy"] {
+    background-color: transparent !important;
+    background-image: none !important;
+}
 
 
 
